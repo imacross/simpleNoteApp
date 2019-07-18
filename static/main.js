@@ -13,7 +13,7 @@ $("#search_icon").click(function (e) {
     searchbox = $('#search_input').val();
     if (searchbox != "") {
         searchbox = searchbox.trim().split(" ").join("-")
-        window.location.replace("http://35.242.234.17/search/" + searchbox);
+        window.location.replace("simplenote.ml/search/" + searchbox);
     } else {
         alert("blank input")
     }
