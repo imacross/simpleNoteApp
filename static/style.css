@@ -1,0 +1,386 @@
+body {
+    text-decoration: none;
+}
+
+.sniglet {
+    font-family: 'Sniglet', cursive;
+}
+
+.poiret {
+    font-family: 'Poiret One', cursive;
+}
+
+.logoDiv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 3em;
+    font-family: 'Sniglet', cursive;
+    text-align: center;
+}
+
+.logo-small {
+    font-size: 1.8em;
+    font-family: 'Sniglet', cursive;
+    text-align: center;
+
+
+}
+
+.container_custom {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.addNote {
+
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    background: #FF416C; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    color: white;
+    margin-top: 25px;
+    -webkit-box-shadow: 0px 0px 34px 4px rgba(255, 66, 97, 1);
+    -moz-box-shadow: 0px 0px 34px 4px rgba(255, 66, 97, 1);
+    box-shadow: 0px 0px 34px 4px rgba(255, 66, 97, 1);
+}
+
+.addNote h3 {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.1rem;
+    /*line-height: 100px;*/
+    text-align: center;
+    font-weight: 700;
+    padding-top: 25px;
+    background-image: url(https://media.giphy.com/media/G0vaYbZDJV0cM/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.addNoteImg {
+    max-width: 70px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+/*
+addNote Hover
+*/
+
+.addNote:hover {
+    width: 240px;
+    height: 190px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 65px 7px rgba(255, 66, 97, 1);
+    -moz-box-shadow: 0px 0px 65px 7px rgba(255, 66, 97, 1);
+    box-shadow: 0px 0px 65px 7px rgba(255, 66, 97, 1);
+
+
+}
+
+
+/* CARD */
+
+.card_custom {
+    width: 280px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #2B2D42;
+    -webkit-box-shadow: 8px 1px 108px -13px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 1px 108px -13px rgba(0, 0, 0, 1);
+    box-shadow: 8px 1px 108px -13px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+
+
+}
+
+
+.cardHeader {
+    padding: 5px;
+
+}
+
+.cardHeaderDiv {
+
+
+    background-color: #EF233C;
+    position: relative;
+    top: 10px;
+    max-width: 237px;
+    -webkit-border-top-right-radius: 60px;
+    -webkit-border-bottom-right-radius: 60px;
+    -moz-border-radius-topright: 60px;
+    -moz-border-radius-bottomright: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.cardHeader {
+    text-overflow: ellipsis;
+    font-family: 'Poiret One', cursive;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    font-weight: 600;
+}
+
+.cardBodyDiv {
+    /*white-space: nowrap;*/
+    height: 165px;
+    /*border:2px solid green;*/
+}
+
+.cardBody {
+    padding: 10px;
+    overflow: hidden;
+    height: 165px;
+    color: White;
+
+    font-family: 'Sniglet', cursive;
+    font-weight: 100;
+}
+
+.dateRow {
+}
+
+.cardDateDiv {
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgba(251, 251, 251, 0.35);
+    max-width: 70px;
+
+}
+
+.cardDate {
+    text-align: center;
+    padding: 0 3px;
+    padding-top: 2px;
+    color: White;
+    font-family: 'Sniglet', cursive;
+
+}
+
+.cardIdDiv {
+
+    background-color: rgba(251, 251, 251, 0.35);
+    float: left;
+    width: 73px;
+    position: relative;
+    left: 1px;
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-bottom-left-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-bottomleft: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.cardId {
+    padding-left: 10px;
+    font-family: 'Sniglet', cursive;
+    color: White;
+    font-weight: 600;
+}
+
+.col-md-3 {
+
+}
+
+.modal-dialog {
+    max-width: 760px !important;
+}
+
+.custom-switch {
+    margin-top: 22px;
+}
+
+.custom-control-label {
+    margin-left: 35px;
+}
+
+#formPassword, #showHide {
+    margin-top: 30px;
+
+}
+
+.formIdGroup {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 100px;
+}
+
+#formId {
+    max-width: 80px;
+
+}
+
+#passwordEye:hover {
+    cursor: pointer;
+}
+
+.cardCol {
+    margin-bottom: 30px;
+}
+
+
+.searchDiv {
+    margin-bottom: 30px;
+}
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #EF233C;
+    border-radius: 30px;
+    padding: 10px;
+    -webkit-box-shadow: 8px 1px 108px -13px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 1px 108px -13px rgba(0, 0, 0, 1);
+    box-shadow: 8px 1px 108px -13px rgba(0, 0, 0, 1);
+}
+
+.search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+.search_input::placeholder{
+    color:#DDDDDD;
+}
+
+
+
+.searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 250px;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.cardHover {
+    -webkit-box-shadow: -2px 2px 36px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -2px 2px 36px -4px rgba(0, 0, 0, 1);
+    box-shadow: -2px 2px 36px -4px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.detailHeader {
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.detailContent {
+    font-weight: 100;
+}
+
+.logoSimple {
+    color: #111;
+}
+
+.logoNote {
+    color: #EF233C;
+}
+
+.link, .linkHelp {
+    float: right;
+}
+
+.link {
+    width: 200px;
+}
+
+.link[type=text], #privateInputPassword[type=password] {
+    text-align: center;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid #e74c3c;
+    font-family: 'Sniglet', cursive;
+
+}
+
+.link[type=text]:focus, #privateInputPassword[type=password] {
+    outline: none;
+}
+
+.linkHelp {
+    margin-right: 12px;
+    line-height: 28px;
+}
+
+#privateInputPassword, .show {
+    margin: 0 auto;
+    display: block;
+}
+
+#show {
+    margin-top: 10px;
+    background-color: #2B2D42;
+    outline: none;
+}
+
+.wrongPassword {
+    text-align: center;
+    color: #e74c3c;
+    display: none;
+}
+.null{
+    color: #e74c3c;
+    display: none;
+    font-family: Sniglet;
+    margin-left:5px;
+}
+
+#formIdGroup{
+    margin-top:0;
+    max-width: 82px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 220px;
+
+}
+#formIdGroup::placeholder{
+    text-align: center;
+}
+
+
