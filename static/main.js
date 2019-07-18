@@ -13,7 +13,7 @@ $("#search_icon").click(function (e) {
     searchbox = $('#search_input').val();
     if (searchbox != "") {
         searchbox = searchbox.trim().split(" ").join("-")
-        window.location.replace("simplenote.ml/search/" + searchbox);
+        window.location.replace("search/" + searchbox);
     } else {
         alert("blank input")
     }
