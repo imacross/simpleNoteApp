@@ -13,7 +13,7 @@ $("#search_icon").click(function (e) {
     searchbox = $('#search_input').val();
     if (searchbox != "") {
         searchbox = searchbox.trim().split(" ").join("-")
-        window.location.replace("http://localhost:5000/search/" + searchbox);
+        window.location.replace("http://35.242.234.17/search/" + searchbox);
     } else {
         alert("blank input")
     }
