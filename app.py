@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 import datetime
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://simpleNoteSu:123456@localhost:5433/simplenotedb"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://simpleNoteSu:123456@postgres:5432/simplenotedb"
 secret_key = "endoplazmikretikulum"
 #"postgresql://simpleNoteSu:123456@localhost:5432/postgres"
 db = SQLAlchemy(app)
