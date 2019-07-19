@@ -70,7 +70,7 @@ def searchDetail(id):
     sqlCode = "select header,note,id,date " \
               "from simplenotetable " \
               "where to_tsvector('english', note || ' ' || header) " \
-              "@@ to_tsquery('english','lorem & ipsum')"
+              "@@ to_tsquery('english','"+id+"')"
     sqlResponse =  db.engine.execute(sqlCode)
     result = []
     for res in sqlResponse:
